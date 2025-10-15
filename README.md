@@ -118,7 +118,7 @@ packageVersion("monocle3")
 | File | Description | Format |
 |------|-------------|--------|
 | `processed_rna.qs` | Pre-processed Seurat object with beta cells | QS |
-| `result.csv` | Algorithm.AI disease confidence scores | CSV |
+| `result.csv` | Algorithme.AI disease confidence scores | CSV |
 | `Donor_Summary_186.csv` | Clinical metadata (HbA1c, demographics) | CSV |
 | `AUROC.csv` | Model performance metrics | CSV |
 | `interpretability_metrics.csv` | Model interpretability comparison | CSV |
@@ -177,7 +177,7 @@ Project/
 # Load Seurat object
 processed_rna <- qread("path/to/processed_rna.qs")
 
-# Load Algorithm.AI scores
+# Load Algorithme.AI scores
 df <- read_csv("path/to/result.csv")
 
 # Subset and merge
@@ -216,7 +216,7 @@ beta_cells$collapsed_cluster <- case_when(
 )
 ```
 
-### 3. Algorithm.AI Validation
+### 3. Algorithme.AI Validation
 
 **Performance Metrics:**
 - ROC curve analysis
@@ -819,7 +819,7 @@ Email: [Add email address]
 
 ## Acknowledgments
 
-- **Algorithm.AI team** for disease scoring algorithm development
+- **Algorithme.AI team** for disease scoring algorithm development
 - **Human Pancreas Analysis Program (HPAP)** for donor samples and data access
 - **GEO contributors** for GSE217775 PINK1 KO dataset
 - **Barko et al.** for DHT treatment dataset
