@@ -19,7 +19,7 @@ This repository contains the comprehensive analytical pipeline for investigating
 - **Sex-stratified differential expression** analysis
 - **Mitochondrial quality index (MQI)** calculation and prediction using Kolmogorov-Arnold Networks (KAN)
 - **PINK1-mediated mitophagy** pathway analysis
-- **Algorithm.AI disease scoring** integration and validation
+- **Algorithme.AI disease scoring** integration and validation
 - **DHT treatment effects** on beta cell mitochondrial function
 - **External dataset integration** (GSE217775 PINK1 KO mice)
 - Comprehensive visualization suite (UMAP, heatmaps, Sankey diagrams, volcano plots)
