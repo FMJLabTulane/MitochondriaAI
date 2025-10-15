@@ -757,6 +757,101 @@ packageVersion("clusterProfiler") # [version]
 packageVersion("ComplexHeatmap") # [version]
 ```
 
+## 🧠 Algorithme.ai Models
+
+Algorithme.ai introduces a new paradigm in machine learning — **lookalike-based reasoning**.  
+The following Python modules demonstrate two model classes built around this concept.
+
+---
+
+### 🐍 Part I — `tulane.py` → `SnakeClassifier`
+
+The **SnakeClassifier** model establishes the foundation of the lookalike rationale.  
+It learns by identifying patterns and extrapolating confidence from similar data points.
+
+```python
+from tulane import (
+    make_population,
+    extrapolate,
+    my_function,
+    datapoint_to_csv,
+    my_function_audit
+)
+from random import choice
+
+# Generate a list of dictionaries from a CSV file
+population = make_population("train.csv")
+
+# Extrapolate confidence percentages from 'train.csv' → 'result.csv'
+extrapolate("train.csv")
+
+# Select a random element from the population
+item = choice(population)
+
+# Print the CSV of lookalikes for the chosen datapoint
+print(datapoint_to_csv(item))
+
+# Retrieve elements in favor and against the datapoint
+favorable, against = my_function_audit(item)
+
+# Compute the confidence percentage for the specific datapoint
+confidence = my_function(item)
+print("Confidence:", confidence)
+```
+
+---
+
+### 🦢 Part II — `tulane.py` → `BlackSwanClassifier`
+
+The **BlackSwanClassifier** extends the SnakeClassifier by incorporating **top feature selection** and **feature importance weighting**, enhancing predictive precision.
+
+```python
+from tulane import (
+    make_population,
+    extrapolate,
+    my_function,
+    datapoint_to_csv,
+    my_function_audit,
+    extrapolate_with_top_features,
+    extrapolate_with_all_features
+)
+from random import choice
+
+# Generate a list of dictionaries from a CSV file
+population = make_population("train.csv")
+
+# Standard extrapolation
+extrapolate("train.csv")
+
+# Select a random element from the population
+item = choice(population)
+
+# Print the CSV of lookalikes for the chosen datapoint
+print(datapoint_to_csv(item))
+
+# Retrieve elements in favor and against the datapoint
+favorable, against = my_function_audit(item)
+
+# Compute the confidence percentage for the specific datapoint
+confidence = my_function(item)
+print("Confidence:", confidence)
+
+# Perform extrapolation using top-ranked features
+extrapolate_with_top_features("train.csv")
+
+# Perform extrapolation using all available features
+extrapolate_with_all_features("train.csv")
+```
+
+---
+
+### 🧩 Summary
+
+| Model | Description | Key Functions |
+|--------|--------------|----------------|
+| **SnakeClassifier** | Base model introducing lookalike-based reasoning | `make_population`, `extrapolate`, `my_function` |
+| **BlackSwanClassifier** | Enhanced model with top feature selection and broader extrapolation logic | `extrapolate_with_top_features`, `extrapolate_with_all_features` |
+
 ---
 
 ## Troubleshooting
