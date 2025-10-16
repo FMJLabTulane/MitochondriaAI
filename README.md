@@ -767,7 +767,7 @@ The following Python modules demonstrate two model classes built around this con
 ### 🐍 Part I — `tulane.py` → `SnakeClassifier`
 
 <p align="center">
-  <img src="Algorithm.Ai/Python%20Models/Part1/SnakeClassifier.jpeg" width="150" alt="SnakeClassifier Logo">
+  <img src="Algorithm.Ai/Python%20Models/Part1/SnakeClassifier.png" width="150" alt="SnakeClassifier Logo">
 </p>
 
 The **SnakeClassifier** model establishes the foundation of the lookalike rationale.  
@@ -808,7 +808,7 @@ print("Confidence:", confidence)
 ### 🦢 Part II — `tulane.py` → `BlackSwanClassifier`
 
 <p align="center">
-  <img src="Algorithm.Ai/Python%20Models/Part2/BlackSwanClassifier.jpeg" width="150" alt="BlackSwanClassifier Logo">
+  <img src="Algorithm.Ai/Python%20Models/Part2/BlackSwanClassifier.png" width="150" alt="BlackSwanClassifier Logo">
 </p>
 
 The **BlackSwanClassifier** extends the SnakeClassifier by incorporating **top feature selection** and **feature importance weighting**, enhancing predictive precision.
