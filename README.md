@@ -4,7 +4,7 @@
 **Fahd Qadir (Dragonmasterx87)**  
 FMJ Lab, Tulane University School of Medicine
 
-**Charles Dana (Algorithme)**
+**Charles Dana (AlgorithmeAi)**
 Algorithme.Ai
 
 **Date**: November 16, 2022  
