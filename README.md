@@ -1,8 +1,11 @@
 # MitochondriaAI: Sex-Based Analysis of Mitochondrial Function in Pancreatic Beta Cells
 
-## Author
+## Authors
 **Fahd Qadir (Dragonmasterx87)**  
 FMJ Lab, Tulane University School of Medicine
+
+**Charles Dana (Algorithme)**
+Algorithme.Ai
 
 **Date**: November 16, 2022  
 **R Version**: 4.2.1 (2019-12-12) 'Funny-Looking Kid'
